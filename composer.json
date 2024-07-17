@@ -1,0 +1,19 @@
+{
+    "name": "combizera/solid",
+    "description": "Dominando a letra S do SOLID",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Combizera\\Solid\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "combizera",
+            "email": "ycombi349@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    }
+}
