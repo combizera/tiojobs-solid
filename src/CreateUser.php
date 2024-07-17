@@ -2,11 +2,11 @@
 
 namespace Combizera\Solid;
 
-class CadastrarUsuario
+class CreateUser
 {
     public function __construct(
         public int $id,
-        public string $nome,
+        public string $name,
         public string $email,
     ) { }
 }
