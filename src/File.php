@@ -2,7 +2,7 @@
 
 namespace Combizera\Solid;
 
-class File
+abstract class File
 {
-
+    abstract public function generate():void;
 }

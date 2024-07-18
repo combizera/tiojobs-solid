@@ -6,7 +6,7 @@ use Combizera\Solid\File;
 
 class Word extends File
 {
-    public function generateDocX(): void
+    public function generate(): void
     {
         echo "Gerei o DocX" . PHP_EOL;
     }
